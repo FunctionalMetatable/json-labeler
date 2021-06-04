@@ -6,7 +6,7 @@ inputs:
     description: 'The GITHUB_TOKEN secret'
   configuration-path:
     description: 'The path for the label configurations'
-    default: '.github/labeler.yml'
+    default: '.github/labeler.json'
     required: false
   sync-labels:
     description: 'Whether or not to remove labels when matching files are reverted'
